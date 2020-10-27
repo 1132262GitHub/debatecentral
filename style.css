@@ -1,0 +1,170 @@
+
+
+.title {
+	font-size: 32px;
+	text-align: center;
+  font-family: Lexend Deca;
+  color: black
+
+
+}
+
+html {
+  background-color: white;
+}
+
+.readMore a:link {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Nunito Sans;
+  color: #009879
+}
+
+.readMore a:hover {
+  color: rgb(114, 179, 175);
+  
+}
+
+
+
+
+
+
+h {
+	text-transform: uppercase;
+
+  font-family: 'Lexend Deca', sans-serif;
+
+  font-size: 16px
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 20 px;
+
+  font-size: 10v3;
+}
+
+
+nav{
+  text-align: center;
+  width: 95vw;
+	
+  background-color: black;
+  border-radius: 10px;
+  margin:0 auto
+  
+}
+
+
+li {
+
+list-style-type: none;
+margin: 0 3vw;
+  
+}
+
+ul{
+  margin: 3vw;
+  padding: 2vw;
+  display: flex;
+}
+
+ul a{
+  padding:0 10px; 
+  
+  font-family: 'Lexend Deca', sans-serif;
+  text-decoration: none;
+  font-size: 1.5w;
+  color: whitesmoke
+}
+
+ul a:hover{
+  background-color: white;
+  color: darkslategrey;
+}
+
+
+.item{
+display: grid;
+border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 20px; 
+  width: 300px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  max-height: 150px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+
+}
+
+.item p {
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+
+  padding: 0px;
+}
+
+h1 {
+  font-family: Lexend Deca;
+  font-size: 20px;
+  text-align: left;
+  margin: 20px;
+}
+
+h2 {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  text-align: left;
+  margin: 20px;
+}
+
+
+#customers {
+  font-family: Nunito Sans;
+  border-collapse: collapse;
+  width: 50%;
+  border-radius: 20px;
+  margin: auto;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#customers thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+#customers th,
+#customers td {
+  
+  padding: 12px 15px;
+
+}
+
+#customers tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#customers tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#customers tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+#customers tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
